@@ -1,0 +1,1 @@
+In this project, we analyzed how locks work in kernel and why they are needed. We also analyzed the sleep() and wakeup() functions. For locks, we picked the file table lock (ftable.lock) and buffer cache lock (bcache.lock). For the sleep() and wakeup() functions, we used wait() in proc.c, and ideintr() and iderw() in ide.c.  
